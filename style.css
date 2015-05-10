@@ -1,0 +1,148 @@
+/*  
+Theme Name: State Of Mind
+Theme URI: http://the-cloisters.net/themedemos/?SelectedTheme=State+Of+Mind
+Description: 3 Column Split, widget-ready theme reminiscent of Old World Style with red leather and wood highlights.  Fixed width featuring an author box, author info page, gravatars and along with custom Archives, Sitemap and full width No Sidebars page templates.  Tested in Firefox, Opera, Safari, IE6 and IE7. Compatible up to WP 2.7.
+Version: 1.2
+Author: Mina
+Author URI: http://www.the-cloisters.net/
+Tags: three-columns, fixed-width, threaded-comments, dark, red, brown, tan
+
+*/
+
+/* mods by Dean Rather */
+table.profiles {margin:0 100px 0 100px;}
+table.profiles td {text-align:center; vertical-align:top; border:1px solid #DCD7BC; width:400px;}
+table.profiles h2 {font-size:30px; margin-top: 10px;}
+table.profiles img {margin-top:10px;}
+table.profiles a {color:blue; font-size:18px;}
+table.profiles ul {text-align:left; font-size: 15px; line-height: 1.5;}
+table.profiles p {border:1px solid black; padding:5px; margin:10px; font-size: 20px;}
+div.infocontainer {float:left; text-align:center; border:1px solid #DCD7BC; width:700px; padding:25px; margin:10px 0 0 125px; font-size: 15px; line-height: 1.5}
+div.watermark {background-image:url(watermark.png); background-repeat:no-repeat;}
+div.infocontainer a {color:blue;}
+
+/***** TYPOGRAPHY AND LINKS *****/
+body, address, dd, dl, hr, p, form { font-family: "Trebuchet MS", Verdana, Tahoma, Arial, Sans-serif; margin: 0; padding: 0; }
+h1, h2, h3, h4, h5, h6 { font-family: Georgia, Times, Verdana, Tahoma, Arial, Sans-serif; margin: 0; padding-left: 5px; color: #61574a; }
+
+h1 { font-size: 24px; }
+h2 { font-size: 14px; }
+h3 { font-size: 12px; }
+h4 { font-size: 10px; }
+
+a:link, a:visited { text-decoration: none; color: #574f4b; }
+a:hover { text-decoration: underline; color: #660000; }
+p { padding: 10px; }
+blockquote { margin: 15px 30px 10px 30px; padding: 0 20px 10px 20px; border-left: 2px solid #574f4b; border-right: 2px solid #574f4b; }
+
+/***** MAIN CONTENT *****/
+body { margin: 0; font-size: 11px; text-align: center; vertical-align: top; background: #333; color: #544b40; }
+#wrapper { margin: 0 auto 0 auto; width: 990px; text-align: left; }
+#main_content { background: #f1efe4 url(images/content_bg.jpg); float: left; margin: 0 auto 0 auto; padding: 0; width: 990px; }
+#container { float: left; width: 530px; margin: 15px 0 0 20px; padding: 10px; border: #dcd7bc 1px solid;  border-top: none; border-bottom: none; }
+#container_wide { float: left; width: 900px; margin: 15px 0 0 30px; padding: 5px 5px 0 7px; }
+.post { padding: 15px 0 5px 0; }
+.post h2 { font-family: Georgia, Trebuchet MS, Sans-serif; font-size: 16px; margin-left: 5px; }
+.entry { line-height: 14px; }
+.postmetadata { margin: 10px 0 0 0; font-size: 9px; }
+.date {	font-size: 9px; }
+
+#author-box { width: 90%; min-height: 115px; margin: 10px 10px 20px 10px; padding: 10px; background: none; border: 3px double #574f4b; }
+#author-box .avatar { float: left; width: 80px; height: 80px; }
+#author-box h2, #author-box h4 { color: #61574a; background: none; border: none; padding-bottom: 5px;}
+
+/***** HEADER *****/
+#header { float: left; width: 990px; height: 316px; background: #660000 url(images/header.jpg) no-repeat; padding: 0; margin: 0 auto 0 auto; }
+#header h1 { padding: 0; margin: 45px 15px 0 ; font-family: Times New Roman, Georgia, Sans-serif; font-size: 70px; font-variant: small-caps; line-height: 38px;}
+#header h1 a { text-decoration: none; color: #eae7b3; text-align: center; }
+#header h1 a:hover { text-decoration: none; color: #eae7b3; }
+#header .description { margin: 10px 0 0 0; padding: 0; font-size: 12px; font-weight: bold; font-style: italic; color: #eae7b3;  }
+
+/***** HORIZONTAL MENU *****/
+.menu  { 
+	float: left; 
+	width: 953px; 
+	height: 30px; 
+	margin-left: 19px; 
+	padding: 0; 
+	display: inline; 
+	background: url(images/menu_bg.gif) no-repeat; 
+	border-top: #61574a 3px double; 
+	text-align: center;
+	font-size: 20px;
+	line-height: 1.5;
+	color: black;
+	font-style: italic;
+}
+
+/***** IMAGES *****/
+p img { padding: 0; max-width: 100%; }
+a img { border: #d4be87 1px solid; padding: 3px; background: none; }
+img.centered { display: block; margin-left: auto; margin-right: auto; }
+img.alignright { padding: 4px; margin: 0 0 2px 7px; display: inline; }
+img.alignleft { padding: 4px; margin: 0 7px 2px 0; display: inline; }
+.alignright { float: right; }
+.alignleft { float: left; }
+.aligncenter, div.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+.wp-caption { border: 1px solid #ddd; text-align: center; background-color: #f3f3f3;   padding-top: 4px; margin: 10px; /* optional rounded corners for browsers that support it */ -moz-border-radius: 3px; -khtml-border-radius: 3px; -webkit-border-radius: 3px;    border-radius: 3px; }
+.wp-caption img { margin: 0; padding: 0; border: 0 none; }
+.wp-caption p.wp-caption-text { font-size: 11px; line-height: 17px; padding: 0 4px 5px; margin: 0; }
+img.avatar { float:left; margin: 5px; border: #afb997 1px solid; }
+#flickrrss img { border: 1px solid #61574a; float: left; margin: 0 0 3px 3px; }
+
+/***** NAVIGATION *****/
+.navigation { padding: 15px 0 15px 10px; font-size: 9px; font-weight: bold; line-height: 18px; }
+
+/***** SUBSCRIPTION *****/
+.subscribe  { background: url(images/feed-icon.jpg) no-repeat 2% center; width: 25px; margin: -20px 0 0 40px; padding: 6px 0 6px 15px; text-decoration: none; }
+.subscribe a:hover { text-decoration: none; }
+
+/***** SIDEBAR *****/
+#left_sidebar h2, #right_sidebar h2, #commentblock h2 { color: #eae7b3; font-family: Times New Roman, Georgia, Verdana, Tahoma, Trebuchet MS, Sans-Serif; font-size: 14px; font-variant: small-caps; font-weight: bold; margin: 15px auto 10px auto; padding: 3px; border: #000 1px solid; text-align: center; background: url(images/sidebar_head.gif); } 
+
+#left_sidebar ul li a:hover, #right_sidebar ul li a:hover { color: #660000; }
+#left_sidebar a.title, #right_sidebar a.title { color: #6b6b47; padding: 0px; margin: 0px; }	
+#left_sidebar ul li a, #right_sidebar ul li a { display: inline; font-size: 11px; font-family: Verdana, Times, Sans-Serif; color: #544b40; text-decoration: none; margin: 0; padding: 0; }
+#left_sidebar ul li, #right_sidebar ul li { display: block; padding: 0; margin: 0px; font-size: 10px; color: #6b6b47; }
+#left_sidebar ul ul, #right_sidebar ul ul { margin:0 0 0 10px; }
+#left_sidebar ul ul ul, #right_sidebar ul ul ul { margin:0 0 0 10px; }
+
+#left_sidebar { width: 160px; float: left; margin: 20px 0 20px 35px; padding: 10px auto 0 auto; } 
+*html  #left_sidebar { margin: 20px 0 20px 20px; padding: 10px auto 0 auto; } 
+#left_sidebar ul { list-style: none; margin: 0 0 5px 0; padding: 0; }
+
+#right_sidebar { width: 170px; float: left; padding: 10px auto 0 auto; margin: 20px 25px 20px 15px; }
+#right_sidebar ul { list-style: none; margin: 0px; padding: 0; }
+
+/***** SEARCH *****/
+#searchform { margin: 10px auto; padding: 5px 3px; text-align: center; }
+#sidebar #searchform #s { width: 108px; padding: 2px; }
+#sidebar #searchsubmit { padding: 1px; }
+
+/***** Calendar *****/
+#wp-calendar { text-align:center; background:#dcd7bc; margin:0 0 10px 0;
+padding:0; width: 85%; border: #61574a 3px double; font-variant: small-caps;
+font-family: Times, Verdana, Sans-Serif; }
+#wp-calendar td { line-height:10px; font-size:10px; color:#333; font-variant:  small-caps; }
+#wp-calendar td a { display:block; color:#333; text-decoration:none; line-height:10px;
+font-weight:bold; font-variant: small-caps; font-size:10px; }
+#wp-calendar #prev a { width:30px; font-variant: small-caps; }
+#wp-calendar #next a { width:30px; margin:0 0 0 30px; font-variant: small-caps; }
+#wp-calendar #today { background:#600000; color:#d7d7bf; font-variant: small-caps; }
+#wp-calendar #today a { color:#d7d7bf; font-weight:700; font-variant: small-caps; }
+#wp-calendar caption { text-align: center; width: 85%; margin: 5px 0 5px 0; font-variant: small-caps; font-family: Times, Verdana,Sans-Serif; font-size:12px; }
+
+/***** COMMENTS *****/
+.comments-template { margin: 0 10px; border-top: 1px solid #dcd7bc; padding: 0 10px; }
+.comments-template ol { margin: 0; padding: 0 0 15px; list-style: none; }
+.comments-template ol li { margin: 0; line-height: 14px; padding: 10px 0 10px 5px; }
+.comments-template h2, .comments-template h3 { font-family: Georgia, Sans-serif; font-size: 12px; margin: 20px 0 0 0; }
+.commentmetadata { font-size: 9px; }
+.comments-template p.nocomments { padding: 0; }
+.comments-template textarea { width: 95%; max-width: 500px; font-family: Arial, Helvetica, Georgia, Sans-serif; font-size: 11px; background: #efeadc; }
+.authorcomment { background: #bab195; }
+
+/***** FOOTER *****/
+#footer { clear: both; float: left; width: 990px; height: 55px; margin-top: 10px; padding: 0; background: url(images/footer.jpg) no-repeat; }
+#footer p { font-size: 9px; line-height: 18px; padding: 0 10px 0 10px; text-align: center; color: #544b40; }
+#footer a { color: #6b6b47; }
